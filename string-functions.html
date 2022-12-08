@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>String Functions</title>
+
+	/*length*/
+	<script>
+		var a="ckhcakhhaufha aushu dksjahdkasfahuhchaejlflehflqehfljhqfihihv aushu"
+		console.log("index of",a.indexOf("aushu"))
+		console.log("search",a.search("leh"))
+        console.log("lastindexof",a.lastIndexOf("aushu"))
+        var b="java script is a scripting and programming language too"
+        console.log("slicing,",b.slice(0,11))
+        console.log("slicing,",b.slice(5,-1))
+        console.log("substring",b.substring(0,5))
+        console.log("substring",b.substring(-12,-5))
+        console.log("substring",b.substr(0,3))
+        console.log("replace",b.replace("too","also"))
+		console.log("length,",a.length)
+	</script>
+
+
+</head>
+<body>
+    <h1>String Functions</h1>
+
+</body>
+</html>
+
+<!--String functions in js
+
+	slice()- a.slice(start,stop) - it can be +ve or -ve
+	substring()-a.substring(start,stop) - it should only +ve values
+	substr()-a.substr(start) or (start,stop)
+	indexOf()- a.indexOf("string you want from  variable a") - it presents the the character which presents in a
+	search()-it shows the chracter whether it is present in that varible by showing its index
+	LastIndexOf()- it represents the word of last repeated one 
+	                example - if power word repeatd for three times in a single variable then it shows the last repeated index of power word
+	length- shows length
+	replace()- a.replace("new","old")

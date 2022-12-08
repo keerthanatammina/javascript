@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<script>
+		function change(){
+                 console.log("this is onchange event")
+		}
+		function press(){
+                 prompt("this is onkeypress event")
+		}
+		function down(){
+                 prompt("this is onkeydown event")
+		}
+		function inp(){
+			console.log("this is oninput")
+		}
+	</script>
+</head>
+<body>
+	<!--<h1>onchange,onkeypress,onkeydown</h1>
+    <input type="text" placeholder="enter your value" onchange="change()"/>
+    <input type="text" placeholder="enter your value" onkeypress="press()"/>
+    <input type="text" placeholder="enter your value" onkeypress="down()"/>-->
+    <input type="text" oninput="inp()"/>
+</body>
+</html>

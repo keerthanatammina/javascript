@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LOCAL-GLOBAL</title>
+	<script type="text/javascript">
+		var a=34
+		function variables(){
+			console.log("its a global variable in js",a);
+			var b=67;
+			console.log("its a local variable in js",b)
+
+		}
+		/*console.log("its a local variable in js",b) - we get error in this process because a local variable can only acess when it is in function name*/
+		
+
+		/*function local(){
+			console.log("its a local variable in js",b)
+		}  - this process also we get error because a local variable in one function it not works in another function */
+
+		
+	</script>
+</head>
+<body>
+   <h1>js-local and global variables</h1>
+   <button onclick="variables()">LOCAL-GLOBAL</button>
+   <button onclick="local()">LOCAL</button>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Javascript-operations</title>
+</head>
+<body>
+	<h1>OPERATORS IN JAVA AND CONTROL STATEMENTS-if,else,else if,switch</h1>
+     <script>
+
+     /*arithemat0*/
+       var a=Number(prompt("Enter a number"));
+       var b=Number(prompt("Enter a number"));
+       console.log((a+b),(a-b),(a*b),(a/b))
+
+       /*Assignment
+       var a==4;
+       console.log(true);*/
+
+       /*logical*/
+       console.log(a>20&&b>20);
+       console.log(a<20 || b>20);
+
+       /*in
+
+       Syntax-  prop in object
+         prop - value
+         object - varibale
+        example - here the data should always be in ARRAY FORMAT [JSON-FORMAT]
+         */
+
+         var fruits={"apple":45,"mango":89,"papaya":34};
+         console.log("mango" in fruits);
+
+
+        /*conditional*/
+
+        var p=45;
+        var q=p>20?"hii":"thank you";
+        console.log(q)
+
+       /* comma*/
+       var i,j;
+       for(i=0,j=0;i>20 && j>20;i++,j++);
+       	console.log(i,j)
+
+
+       	/*unary*/
+         var f=45,g=23;
+         f++;
+         g--;
+         console.log("f",f);
+         console.log("g",g);
+
+
+        /*comparision*/
+        
+
+        /* Control statements*/
+        age=Number(prompt("Enter a number for voting"));
+        if(age>18)
+        console.log("You are eligible for voting");
+        else if(age==18)
+        console.log("Better for next year");
+        else;
+        console.log("Sorry you are not eligible for voting");
+
+
+        /* Switch case */
+
+        var sw=new Date().getDay();
+        console.log(sw);
+        switch(sw){
+        	case 0: console.log("Sunday");
+        	       break;
+        	case 1: console.log("MOnday");
+        	       break;
+        	case 2: console.log("Tuesday");
+        	       break;
+        	case 3: console.log("Wednesday");
+        	       break;
+        	case 4: console.log("Thursday");
+        	       break;
+        	case 5: console.log("Friday");
+        	       break;
+        	case 6: console.log("Saturday");
+        	       break;
+         }
+            
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	getting date in (month/date/year)
+	<script>
+		function sl(){
+			var a= new Date("11/25/2025")
+			console.log(a)
+			document.getElementById("demo").innerHTML=a
+		}
+	</script>
+
+
+	<script>
+		function sl(){
+			var a= new Date("feb 14 2028")
+			console.log(a)
+			document.getElementById("demo").innerHTML=a
+		}
+	</script>
+</head>
+<body>
+ <h1>SHORT-LONG-DATES IN JS</h1>
+ <p id="demo"></p>
+ <button onclick="sl()">Click on me</button>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Attributes - js</title>
+
+	setattribute
+	<!--<script>
+		function drama(){
+			document.getElementById("id1").setAttribute("type","number")
+			document.getElementById("id1").setAttribute("placeholder","number")
+		}
+	</script>-->
+
+	Creating elements
+	<script>
+		function drama(){
+			document.getElementById("id1").setAttribute("type","number")
+			document.getElementById("id1").setAttribute("placeholder","number")
+			var create=document.createElement("button")
+			document.body.appendChild(create)
+		}
+	</script>
+</head>
+<body>
+	<h1>ATTRIBUTES IN JS</h1>
+  <input id="id1" type="text" placeholder="Enter a string"/>
+  <button onclick="drama()">Submit</button>
+</body>
+</html>
